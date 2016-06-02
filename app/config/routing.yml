@@ -1,9 +1,6 @@
 blog:
     resource: "@BlogBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /blog
 
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
