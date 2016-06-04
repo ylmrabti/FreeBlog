@@ -1,0 +1,21 @@
+{% extends '::base.html.twig' %}
+{% block title %}Manage user{% endblock %}
+{% block body %}
+{% block header %}
+<nav class="navbar navbar-default">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/"><i class="fa fa-home"></i> FreeBlog</a>
+		</div>
+	</div>
+</nav>
+{% endblock %}
+<div class="col-md-4 col-md-offset-4">
+	{% block content %}
+	{% block fos_user_content %}{% endblock %}
+	{% endblock %}
+</div>
+{% block footer %}
+{% endblock %}
+{% endblock %}

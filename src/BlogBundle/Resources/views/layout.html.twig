@@ -1,0 +1,26 @@
+{% extends '::base.html.twig' %}
+{% block title %}User{% endblock %}
+	
+{% block body %}
+	{% block header %}
+		{% include 'BlogBundle::navbar.html.twig'%}
+	{% endblock %}
+	{% block content %}
+		<nav>
+			<ul>
+				<ul class="pull-left">
+					<li class="logo">FreeBlog</li>
+				</ul>
+			</ul>
+		</nav>
+	{% endblock %}
+	{% block footer %}
+		<nav>
+			<ul>
+				<ul class="pull-left">
+					<li class="logo">FreeBlog</li>
+				</ul>
+			</ul>
+		</nav>
+	{% endblock %}
+{% endblock %}
